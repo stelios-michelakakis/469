@@ -7,7 +7,6 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AppRoutingModule, routingComponents } from './app.routing';
 import {FormsModule} from '@angular/forms';
-import { EnternameComponent } from './pages/mobile/create/entername/entername.component';
 
 
 @NgModule({
@@ -16,7 +15,7 @@ import { EnternameComponent } from './pages/mobile/create/entername/entername.co
     HomeComponent,
     MobileComponent,
     routingComponents,
-    EnternameComponent
+
   ],
   imports: [
     BrowserModule,

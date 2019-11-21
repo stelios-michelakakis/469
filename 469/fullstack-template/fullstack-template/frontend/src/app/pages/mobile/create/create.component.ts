@@ -7,7 +7,6 @@ import { Component, OnInit, ViewContainerRef } from '@angular/core';
   template: `
               <head>Create Game</head>
               <body>
-           
             <h2>
               Total Players
             </h2>

@@ -1,5 +1,6 @@
 <body> 
-  <a routerLink="/create"> <button class="start" > START GAME</button>
+  <a [routerLink]="['/create']" class="start">
+    <button > START GAME</button>
   </a>
   <a [routerLink]="['/join']" class="join">
      <button >JOIN GAME</button>

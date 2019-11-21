@@ -5,14 +5,12 @@ import { Component, OnInit, ViewContainerRef } from '@angular/core';
   selector: 'ami-fullstack-create',
   templateUrl: './create.component.html',
   template: `
-            <div class="ad-banner-example">
               <head>Create Game</head>
-              <ng-template  ami-fullstack-create,
-              ></ng-template>
-            </div>
+              <body>
             <h2>
               Total Players
             </h2>
+            </body>
           `,
   styleUrls: ['./create.component.scss']
 })
